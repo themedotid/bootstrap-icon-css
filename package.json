@@ -1,6 +1,6 @@
 {
   "name": "@themeid/bootstrap-icon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bootstrap Icons are designed to work with Bootstrap components, from form controls to navigation. Bootstrap Icons are SVGs, so they scale quickly and easily and can be styled with CSS. While they're built for Bootstrap, they'll work in any project.",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,9 @@
   "homepage": "https://themedotid.github.io/bootstrap-icon/",
   "devDependencies": {
     "@babel/core": "^7.11.1",
+    "@babel/plugin-syntax-jsx": "^7.10.4",
     "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
     "@babel/register": "^7.10.5",
     "@popperjs/core": "^2.4.4",
     "@wordpress/babel-preset-default": "^4.13.0",
@@ -95,5 +97,8 @@
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }

@@ -8,7 +8,7 @@ import gulpif from 'gulp-if';
 import postcss from 'gulp-postcss';
 import sourcemaps from 'gulp-sourcemaps';
 import autoprefixer from 'autoprefixer';
-import imagemin from 'gulp-imagemin';
+// import imagemin from 'gulp-imagemin';
 import del from 'del';
 import named from 'vinyl-named';
 import webpack from 'webpack-stream';
@@ -18,11 +18,10 @@ import wpPot from "gulp-wp-pot";
 import browserSync from "browser-sync";
 import concat from "gulp-concat";
 import gutil from "gulp-util";
-import deporder from "gulp-deporder";
-import uglify from "gulp-uglify";
-const rename = require('gulp-rename');
-const path = require('path');
-
+// import deporder from "gulp-deporder";
+// import uglify from "gulp-uglify";
+// const rename = require('gulp-rename');
+// const path = require('path');
 
 const PRODUCTION = yargs.argv.prod;
 
@@ -95,14 +94,48 @@ export const CopyDist = () => {
     return src('./dist/**/*')
         .pipe(dest('./docs/dist'));
 }
+export const JsDocs = () =>{
+    return src('./src/js/docs.js')
+        .pipe(named())
+        .pipe(webpack({
+            module: {
+                rules: [
+                    {
+                        test: /\.js$/,
+                        use: {
+                            loader: 'babel-loader',
+                            options: {
+                                presets:  []
+                            }
+                        }
+                    }
+                ]
+            },
+            mode: PRODUCTION ? 'production' : 'development',
+            devtool: !PRODUCTION ? 'inline-source-map' : false,
+            output: {
+                filename: '[name].js'
+            },
+            externals: {
+                jquery: 'jQuery'
+            },
+        }))
+        .pipe(terser())
+        .pipe(gulpif(PRODUCTION, stripdebug()))
+
+        .pipe(dest('./dist/js'));
+}
+
+
 
 export const watchForChanges = () => {
     watch('src/sass/bootstrap-icon.scss', cssFontIcon);
     watch('src/sass/docs.scss', CssDocs);
+    watch('src/js/*.js', JsDocs);
     watch('src/fonts/*.{eot,svg,ttf,woff,woff2}', series(FontCopy, reload));
     watch("**/*.html", reload);
 }
 
-export const dev = series(clean, series(cssFontIcon,CssDocs,FontCopy),serve, watchForChanges,CopyDist);
-export const build = series(clean, parallel(cssFontIcon,CssDocs,FontCopy),CopyDist);
+export const dev = series(clean, series(cssFontIcon,CssDocs,FontCopy,JsDocs),serve, watchForChanges,CopyDist);
+export const build = series(clean, parallel(cssFontIcon,CssDocs,FontCopy,JsDocs),CopyDist);
 export default dev;

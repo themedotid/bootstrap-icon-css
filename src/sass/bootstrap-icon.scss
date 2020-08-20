@@ -48,5 +48,13 @@ $class_name : '.biicon';
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
+$sizes: 2, 3, 4,5;
+
+@each $size in $sizes {
+  .biicon-#{$size}x {
+    font-size: #{$size}em;
+  }
+}
+
 
 @import "./icons";

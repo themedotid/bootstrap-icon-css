@@ -1,10 +1,10 @@
 var path = require('path');
 var webpack = require('webpack');
 module.exports = {
-    entry: {
-        main: './resources',
-        other: './assets',
-    },
+    // entry: {
+    //     main: './resources',
+    //     other: './assets',
+    // },
     resolve: {
         extensions: ["", ".webpack.js", ".web.js", ".ts", ".js"]
     },
