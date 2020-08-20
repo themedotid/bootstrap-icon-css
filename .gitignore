@@ -1,0 +1,11 @@
+node_modules/
+/vendor/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+#lock files
+package-lock.json
+yarn.lock

@@ -1,0 +1,96 @@
+{
+  "name": "bootstrap-icon",
+  "version": "1.0.0",
+  "description": "Bootstrap Icons are designed to work with Bootstrap components, from form controls to navigation. Bootstrap Icons are SVGs, so they scale quickly and easily and can be styled with CSS. While they're built for Bootstrap, they'll work in any project.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "watch": "gulp watch --dev",
+    "prod": "gulp build",
+    "start": "gulp",
+    "build": "gulp build --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dankerizer/bootstrap-icon.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "icons",
+    "bootstrap",
+    "font",
+    "icon",
+    "font",
+    "css"
+  ],
+  "author": "Hadie Danker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dankerizer/bootstrap-icon/issues"
+  },
+  "homepage": "https://github.com/dankerizer/bootstrap-icon#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/register": "^7.10.5",
+    "@popperjs/core": "^2.4.4",
+    "@wordpress/babel-preset-default": "^4.13.0",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-minify": "^0.5.1",
+    "bootstrap": "^4.5.2",
+    "browser-sync": "^2.26.12",
+    "browserslist": "^4.12.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-buffer": "0.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-deporder": "^1.2.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-js-import": "^1.0.6",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-print": "^5.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-strip-debug": "^3.0.0",
+    "gulp-terser": "^1.2.0",
+    "gulp-terser-js": "^5.2.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-wp-pot": "^2.4.3",
+    "gulp-zip": "^5.0.2",
+    "jquery": "^3.5.1",
+    "node-gyp": "^6.1.0",
+    "popper.js": "^1.16.1",
+    "postcss-assets": "^5.0.0",
+    "rebuild": "^0.1.2",
+    "vinyl-named": "^1.1.0",
+    "vinyl-paths": "^3.0.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-stream": "^5.2.1",
+    "yargs": "^15.4.1"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "@babel/preset-env"
+          ]
+        }
+      ]
+    ]
+  }
+}
