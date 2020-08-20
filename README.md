@@ -7,7 +7,7 @@
 <h3 align="center">Bootstrap Icons CSS</h3>
 
 ## 1,000+ icons
-![Bootstrap Icons full set](icon-list-image.png)
+![Bootstrap Icons full set](./docs/icon-list-image.png)
 [Also available in Figma.](https://www.figma.com/file/hTJtQ2MrMTeNVmYrVBqNZZ/Bootstrap-Icons-v1.0.0-alpha5?node-id=0%3A1)
 
 
