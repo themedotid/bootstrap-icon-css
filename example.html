@@ -115,7 +115,7 @@
 <main >
     <div class="container py-4">
         <section id="basic">
-            <h2 class="page-header">Bacis Icons</h2>
+            <h2 class="page-header">Basic Icons</h2>
             <div class="row">
                 <div class="col-md-3 col-sm-4">
                     <p>
@@ -130,7 +130,74 @@
                     </p>
                     <div class="highlight"><pre><code class="html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"biicon bi-camera"</span><span class="nt">&gt;&lt;/i&gt;</span> biicon bi-camera
 </code></pre></div>
+                    <div class="alert alert-success">
+                        <ul class="list-unstyled list-icon">
+                            <li>
+                                <i class="biicon bi-info-circle" aria-hidden="true"></i>
+                                <strong class="sr-only">Example: basic icon</strong>
+                                If you change the font-size of the icon's container, the icon gets bigger. Same things goes for color,
+                                drop shadow, and anything else that gets inherited using CSS.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="large">
+            <h2 class="page-header">Large Icons</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-4">
+                    <p class="align-middle"> <i class="biicon bi-camera"></i>  bi-camera     </p>
+                    <p class="align-middle"> <i class="biicon bi-camera biicon-2x"></i>  bi-camera biicon-2x</p>
+                    <p class="align-middle"> <i class="biicon bi-camera biicon-3x"></i>  bi-camera biicon-2x</p>
+                    <p class="align-middle"> <i class="biicon bi-camera biicon-3x"></i>  bi-camera biicon-3x</p>
+                </div>
+                <div class="col-md-9 col-sm-8">
+                    <p>
+                        To increase icon sizes relative to their container, use the  <code>biicon-2x</code>,
+                        <code>biicon-3x</code>, <code>biicon-4x</code>, or <code>biicon-5x</code> classes.
+                    </p>
+                    <div class="highlight"><pre><code class="html"><span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"fa  bi-camera fa-lg"</span><span class="nt">&gt;&lt;/i&gt;</span> fa-lg
+<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"biicon  bi-camera biicon-2x"</span><span class="nt">&gt;&lt;/i&gt;</span> biicon-2x
+<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"biicon  bi-camera biicon-3x"</span><span class="nt">&gt;&lt;/i&gt;</span> biicon-3x
+<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"biicon  bi-camera biicon-4x"</span><span class="nt">&gt;&lt;/i&gt;</span> biicon-4x
+<span class="nt">&lt;i</span> <span class="na">class=</span><span class="s">"biicon  bi-camera biicon-5x"</span><span class="nt">&gt;&lt;/i&gt;</span> biicon-5x
+</code></pre></div>
+                    <div class="alert alert-success">
+                        <ul class="list-unstyled list-icon">
+                            <li>
+                                <i class="biicon bi-patch-exclamation" aria-hidden="true"></i>
+                                <strong class="sr-only">Example: basic icon</strong>
+                                If your icons are getting chopped off on top and bottom, make sure you have sufficient line-height.
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="list-icon">
+            <h2 class="page-header">List Icons</h2>
+            <div class="row">
+                <div class="col-md-3 col-sm-4">
+                   <ul class="biicon-ul">
+                       <li><i class="biicon bi-check-square-fill bi-li"></i> List Icon</li>
+                       <li><i class="biicon bi-check bi-li"></i> Can be used</li>
+                       <li><i class="biicon bi-check2-circle bi-li"></i> as bullet</li>
+                       <li><i class="biicon bi-info-circle-fill bi-li"></i> in list</li>
+                   </ul>
+                </div>
+                <div class="col-md-9 col-sm-8">
+                    <p>Use <code>biicon-ul</code> and <code>bi-li</code> to easily replace default bullets in unordered lists.</p>
+                    <div class="highlight"><pre><code class="html"><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"biicon-ul"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;i</span> <span class="na">class=</span><span class="s">"biicon bi-li bi-check-square-fill"</span><span class="nt">&gt;&lt;/i&gt;</span>List icons<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;i</span> <span class="na">class=</span><span class="s">"biicon bi-li bi-check "</span><span class="nt">&gt;&lt;/i&gt;</span>can be used<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;i</span> <span class="na">class=</span><span class="s">"biicon bi-li fa bi-check2-circle "</span><span class="nt">&gt;&lt;/i&gt;</span>as bullets<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;&lt;i</span> <span class="na">class=</span><span class="s">"biicon bi-li bi-info-circle-fill"</span><span class="nt">&gt;&lt;/i&gt;</span>in lists<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div>
+                   
                 </div>
             </div>
         </section>
