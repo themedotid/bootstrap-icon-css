@@ -1,7 +1,7 @@
 # Bootstrap Icon CSS 
 <p align="center">
   <a href="https://themedotid.github.io/bootstrap-icon">
-    <img src="https://v5.getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo-shadow.png" alt="Bootstrap logo" width="200" height="165">
+    <img src="./docs/bootstrap-icon-css.png" alt="Bootstrap Icons CSS logo" width="200" height="165">
   </a>
 </p>
 <h3 align="center">Bootstrap Icons CSS</h3>
