@@ -1,6 +1,6 @@
 {
   "name": "@themeid/bootstrap-icon",
-  "version": "1.0.1",
+  "version": "1.0.1-beta1",
   "description": "Bootstrap Icons are designed to work with Bootstrap components, from form controls to navigation. Bootstrap Icons are SVGs, so they scale quickly and easily and can be styled with CSS. While they're built for Bootstrap, they'll work in any project.",
   "main": "index.js",
   "scripts": {

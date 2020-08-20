@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f249043-c888-4af8-aeed-bc7de1c8ba20" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597906434112</updated>
       <workItem from="1597906435892" duration="13147000" />
-      <workItem from="1597933488218" duration="12174000" />
+      <workItem from="1597933488218" duration="12860000" />
     </task>
     <servers />
   </component>
@@ -155,5 +157,9 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1459" y="190" key="SettingsEditor/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597907250508" />
+    <state x="-1163" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597948585892">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1163" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800/-1920.0.1920.1080/-3286.50.1366.768@-1920.0.1920.1080" timestamp="1597948585892" />
   </component>
 </project>

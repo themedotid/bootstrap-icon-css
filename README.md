@@ -17,7 +17,11 @@ Bootstrap Icons CSS are packaged up and published to npm. Read our docs for usag
 
 
 ```bash
-npm i @themeid/bootstrap-icon
+npm install @themeid/bootstrap-icon
+
+#or
+
+yarn add @themeid/bootstrap-icon
 ```
 
 ## Documentation
