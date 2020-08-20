@@ -76,7 +76,7 @@ export const cssFontIcon = () => {
 }
 
 export const CssDocs = () => {
-    return src('./src/sass/docs.scss')
+    return src(['./src/sass/bootstrap.scss','./src/sass/docs.scss'])
         .pipe(gulpif(!PRODUCTION, sourcemaps.init()))
         .pipe(sass({
             outputStyle: 'compressed',
@@ -91,13 +91,18 @@ export const CssDocs = () => {
         .pipe(gutil.noop())
         .pipe(server.stream());
 }
+export const CopyDist = () => {
+    return src('./dist/**/*')
+        .pipe(dest('./docs/dist'));
+}
 
 export const watchForChanges = () => {
-    watch('src/sass/*.scss', cssFontIcon);
+    watch('src/sass/bootstrap-icon.scss', cssFontIcon);
+    watch('src/sass/docs.scss', CssDocs);
     watch('src/fonts/*.{eot,svg,ttf,woff,woff2}', series(FontCopy, reload));
     watch("**/*.html", reload);
 }
 
-export const dev = series(clean, series(cssFontIcon,CssDocs,FontCopy),serve,  watchForChanges);
-export const build = series(clean, parallel(cssFontIcon,CssDocs,FontCopy));
+export const dev = series(clean, series(cssFontIcon,CssDocs,FontCopy),serve, watchForChanges,CopyDist);
+export const build = series(clean, parallel(cssFontIcon,CssDocs,FontCopy),CopyDist);
 export default dev;

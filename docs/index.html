@@ -12,22 +12,25 @@
 
     <title>Bootstrap Icons· by Theme.id.</title>
     <!-- Bootstrap core CSS -->
-    <link href="../dist/css/docs.css" rel="stylesheet" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="../dist/css/bootstrap-icon.min.css" rel="stylesheet" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../dist/css/docs.css">
+    <link href="../dist/css/bootstrap-icon.min.css" rel="stylesheet">
     <!-- Documentation extras -->
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@themedotid">
     <meta name="twitter:creator" content="@themedotid">
     <meta name="twitter:title" content="Bootstrap Icons by Theme.id">
-    <meta name="twitter:description" content="Bootstrap Icons are designed to work with Bootstrap components, from form controls to navigation. Bootstrap Icons are SVGs, so they scale quickly and easily and can be styled with CSS. While they're built for Bootstrap, they'll work in any project.">
+    <meta name="twitter:description"
+          content="Bootstrap Icons are designed to work with Bootstrap components, from form controls to navigation. Bootstrap Icons are SVGs, so they scale quickly and easily and can be styled with CSS. While they're built for Bootstrap, they'll work in any project.">
     <meta name="twitter:image" content="https://icons.getbootstrap.com/assets/img/bootstrap-icons-social.png">
 
     <!-- Facebook -->
     <meta property="og:url" content="https://getbootstrap.com/">
     <meta property="og:title" content="Bootstrap Icons by Theme.id">
     <meta property="og:description" content="The most popular HTML, CSS, and JS library in the world.">
-    <meta property="og:description"  content="Bootstrap Icons are designed to work with Bootstrap components, from form controls to navigation. Bootstrap Icons are SVGs, so they scale quickly and easily and can be styled with CSS. While they're built for Bootstrap, they'll work in any project.">
+    <meta property="og:description"
+          content="Bootstrap Icons are designed to work with Bootstrap components, from form controls to navigation. Bootstrap Icons are SVGs, so they scale quickly and easily and can be styled with CSS. While they're built for Bootstrap, they'll work in any project.">
 
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://icons.getbootstrap.com/assets/img/bootstrap-icons-social.png">
@@ -35,7 +38,103 @@
     <meta property="og:image:width" content="1000">
     <meta property="og:image:height" content="500">
 </head>
-<body>
+<body class="icon-body">
+<a class="skippy sr-only-focusable sr-only" href="#content">
+    <span class="skippy-text">Skip to main content</span>
+</a>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-xl">
+        <a class="navbar-brand" href="#"><i class="biicon bi-bootstrap-fill"></i> Bootstrap Icons</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL"
+                aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample07XL">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./icons.html">Icons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="./docs.html" tabindex="-1" aria-disabled="true">Docs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="./example.html" tabindex="-1" aria-disabled="true">Examples</a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="hero py-5">
+    <div class="container">
+        <h1 class="f0">Bootstrap Icons</h1>
+        <p class="mb-4 f3 font-weight-normal">For the first time ever, Bootstrap has its own icon library, custom
+            designed and built for our components and documentation.</p>
+        <div class="row text-muted">
+            <div class="col-sm">
+                <p>Bootstrap Icons are designed to work with <a target="_blank" href="https://getbootstrap.com/">Bootstrap</a>
+                    components, from form controls to navigation. Bootstrap Icons are SVGs, so they scale quickly and
+                    easily and can be styled with CSS. While they're built for Bootstrap, they'll work in any project.
+                </p>
+            </div>
+            <div class="col-sm">
+                <p>They're open sourced (MIT), so you're free to download, use, and extend. Heads up though, <strong>they're
+                    in alpha right now</strong> and subject to sweeping changes.</p>
+            </div>
+            <div class="col-md-3 col-lg-4">
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="container">
+    <hr class="my-4">
+    <div class="row mb-md-4 align-items-center ">
+        <div class="col-md-5">
+            <div class="mb-2 display-3"><i class="biicon bi-code-square"></i></div>
+            <h2>Installation</h2>
+            <p>
+                Install Themeid's Bootstrap Icon source Sass and JavaScript files via npm or direct download
+            </p>
+        </div>
+        <div class="col-md-7">
+            <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="c"># Via npm</span>
+npm <span class="nb">install </span>@themeid/bootstrap-icon
+</code></pre>
+            </figure>
+
+            <p>Download from github <a href="https://github.com/themedotid/bootstrap-icon" target="_blank">@themedotid</a></p>
+        </div>
+    </div>
+</div>
+
+<footer class="main-footer footer">
+    <div class="container">
+
+        <p class="text-muted">
+            Currently v1.0.0-alpha5
+            <span class="px-1">•</span>
+            <a href="./icons.html">Icons</a>
+            <span class="px-1">•</span>
+            <a href="#install">Install</a>
+            <span class="px-1">•</span>
+            <a href="./docs.html#usage">Usage</a>
+            <span class="px-1">•</span>
+            <a href="./docs.html#styling">Styling</a>
+            <span class="px-1">•</span>
+            <a href="https://github.com/themedotid/bootstrap-icon" target="_blank">GitHub repo</a>
+        </p>
+    </div>
+</footer>
 </body>
 </html>

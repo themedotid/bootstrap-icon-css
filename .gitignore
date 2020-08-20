@@ -1,5 +1,6 @@
 node_modules/
 /vendor/
+/.idea/
 
 # ignore log files and databases
 *.log

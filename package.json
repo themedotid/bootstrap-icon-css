@@ -1,14 +1,12 @@
 {
-  "name": "bootstrap-icon",
+  "name": "@themeid/bootstrap-icon",
   "version": "1.0.0",
   "description": "Bootstrap Icons are designed to work with Bootstrap components, from form controls to navigation. Bootstrap Icons are SVGs, so they scale quickly and easily and can be styled with CSS. While they're built for Bootstrap, they'll work in any project.",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run development",
-    "watch": "gulp watch --dev",
-    "prod": "gulp build",
     "start": "gulp",
-    "build": "gulp build --prod"
+    "build": "gulp build --prod",
+    "deploy": "gh-pages -d docs"
   },
   "repository": {
     "type": "git",
@@ -28,7 +26,7 @@
   "bugs": {
     "url": "https://github.com/themedotid/bootstrap-icon/issues"
   },
-  "homepage": "https://github.com/themedotid/bootstrap-icon#readme",
+  "homepage": "https://themedotid.github.io/bootstrap-icon/",
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
@@ -93,5 +91,9 @@
         }
       ]
     ]
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {}
 }
