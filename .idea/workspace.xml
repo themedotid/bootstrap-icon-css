@@ -2,33 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f249043-c888-4af8-aeed-bc7de1c8ba20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/_component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/bootstrap-icon-codes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/bootstrap-icon-embedded.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/bootstrap-icon-ie7-codes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/bootstrap-icon-ie7.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/bootstrap-icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/bootstrap-icon.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/bootstrap-icon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/bootstrap-icon.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/docs.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/docs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dist/css/bootstrap-icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dist/css/bootstrap-icon.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dist/css/docs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dist/fonts/bootstrap-icon.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dist/fonts/bootstrap-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dist/fonts/bootstrap-icon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dist/fonts/bootstrap-icon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dist/fonts/bootstrap-icon.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/docs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dist/css/bootstrap-icon.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dist/css/bootstrap-icon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dist/css/bootstrap-icon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dist/css/bootstrap-icon.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dist/css/docs.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dist/css/docs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/dist/js/docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dist/js/docs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/example.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/icons.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.babel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/docs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/bootstrap-icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/bootstrap-icon.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/docs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/docs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.build">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/bootstrap-icon/docs/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -127,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.start" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="npm.watch" />
@@ -144,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597906434112</updated>
       <workItem from="1597906435892" duration="13147000" />
-      <workItem from="1597933488218" duration="7497000" />
+      <workItem from="1597933488218" duration="11133000" />
     </task>
     <servers />
   </component>
@@ -156,22 +143,26 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1255" y="351" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597907908087" />
-    <state width="1899" height="276" key="GridCell.Tab.0.bottom" timestamp="1597941023664">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1899" height="276" key="GridCell.Tab.0.bottom" timestamp="1597945616038">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597941023664" />
-    <state width="1899" height="276" key="GridCell.Tab.0.center" timestamp="1597941023662">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1899" height="276" key="GridCell.Tab.0.bottom/0.0.1280.800/-1920.0.1920.1080/-3286.50.1366.768@-1920.0.1920.1080" timestamp="1597945616038" />
+    <state width="1899" height="276" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597941807377" />
+    <state width="1899" height="276" key="GridCell.Tab.0.center" timestamp="1597945616025">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.center/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597941023662" />
-    <state width="1899" height="276" key="GridCell.Tab.0.left" timestamp="1597941023661">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1899" height="276" key="GridCell.Tab.0.center/0.0.1280.800/-1920.0.1920.1080/-3286.50.1366.768@-1920.0.1920.1080" timestamp="1597945616025" />
+    <state width="1899" height="276" key="GridCell.Tab.0.center/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597941807375" />
+    <state width="1899" height="276" key="GridCell.Tab.0.left" timestamp="1597945616022">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.left/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597941023661" />
-    <state width="1899" height="276" key="GridCell.Tab.0.right" timestamp="1597941023663">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1899" height="276" key="GridCell.Tab.0.left/0.0.1280.800/-1920.0.1920.1080/-3286.50.1366.768@-1920.0.1920.1080" timestamp="1597945616022" />
+    <state width="1899" height="276" key="GridCell.Tab.0.left/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597941807374" />
+    <state width="1899" height="276" key="GridCell.Tab.0.right" timestamp="1597945616036">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.right/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597941023663" />
+    <state width="1899" height="276" key="GridCell.Tab.0.right/0.0.1280.800/-1920.0.1920.1080/-3286.50.1366.768@-1920.0.1920.1080" timestamp="1597945616036" />
+    <state width="1899" height="276" key="GridCell.Tab.0.right/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597941807376" />
     <state x="-1459" y="190" key="SettingsEditor" timestamp="1597907250508">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
