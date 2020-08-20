@@ -44,23 +44,33 @@ export const reload = done => {
 export const clean = () => del(['dist']);
 
 export const FontCopy = () => {
-    return src('src/fonts/*.{eot,svg,ttf,woff,woff2}')
+    return src('./src/fonts/*')
         .pipe(dest('dist/fonts'));
 }
 
 export const cssFontIcon = () => {
     return src('./src/sass/bootstrap-icon.scss')
         .pipe(gulpif(!PRODUCTION, sourcemaps.init()))
+        .pipe(sass())
+        .pipe(gulpif(PRODUCTION, postcss([autoprefixer])))
+        .pipe(gulpif(PRODUCTION, cleanCss({compatibility: 'ie8'})))
+        .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
+        .pipe(dest('./dist/css'))
+
+
         .pipe(sass({
             outputStyle: 'compressed',
             // imagePath       : images.build,
             precision: 3,
             errLogToConsole: true
         }))
+
+        .pipe(concat('bootstrap-icon.min.css'))
         .pipe(gulpif(PRODUCTION, postcss([autoprefixer])))
         .pipe(gulpif(PRODUCTION, cleanCss({compatibility: 'ie8'})))
         .pipe(gulpif(!PRODUCTION, sourcemaps.write()))
         .pipe(dest('./dist/css'))
+
         .pipe(gutil.noop())
         .pipe(server.stream());
 }
@@ -88,6 +98,6 @@ export const watchForChanges = () => {
     watch("**/*.html", reload);
 }
 
-export const dev = series(clean, series(cssFontIcon,CssDocs),serve,  watchForChanges);
-export const build = series(clean, parallel(cssFontIcon,CssDocs));
+export const dev = series(clean, series(cssFontIcon,CssDocs,FontCopy),serve,  watchForChanges);
+export const build = series(clean, parallel(cssFontIcon,CssDocs,FontCopy));
 export default dev;

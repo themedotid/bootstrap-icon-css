@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -20,9 +21,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -37,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/src/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -79,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597906434112</updated>
-      <workItem from="1597906435892" duration="2314000" />
+      <workItem from="1597906435892" duration="3569000" />
     </task>
     <servers />
   </component>
@@ -91,22 +94,22 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1255" y="351" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597907908087" />
-    <state width="1899" height="276" key="GridCell.Tab.0.bottom" timestamp="1597908375661">
+    <state width="1899" height="276" key="GridCell.Tab.0.bottom" timestamp="1597910024873">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597908375661" />
-    <state width="1899" height="276" key="GridCell.Tab.0.center" timestamp="1597908375658">
+    <state width="1899" height="276" key="GridCell.Tab.0.bottom/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597910024873" />
+    <state width="1899" height="276" key="GridCell.Tab.0.center" timestamp="1597910024870">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.center/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597908375658" />
-    <state width="1899" height="276" key="GridCell.Tab.0.left" timestamp="1597908375657">
+    <state width="1899" height="276" key="GridCell.Tab.0.center/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597910024870" />
+    <state width="1899" height="276" key="GridCell.Tab.0.left" timestamp="1597910024869">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.left/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597908375657" />
-    <state width="1899" height="276" key="GridCell.Tab.0.right" timestamp="1597908375660">
+    <state width="1899" height="276" key="GridCell.Tab.0.left/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597910024869" />
+    <state width="1899" height="276" key="GridCell.Tab.0.right" timestamp="1597910024872">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="276" key="GridCell.Tab.0.right/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597908375660" />
+    <state width="1899" height="276" key="GridCell.Tab.0.right/0.23.1280.777/-1920.23.1920.1057/-3286.73.1366.745@-1920.23.1920.1057" timestamp="1597910024872" />
     <state x="-1459" y="190" key="SettingsEditor" timestamp="1597907250508">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
